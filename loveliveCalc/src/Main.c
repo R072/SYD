@@ -45,9 +45,11 @@ int main(int argc ,char *argv[])
 {
   int S31level,S31point,S31class,S31min,S31mid,S31max;
   int num;
-  
+  printf(" Enter No. 1 -> R, 2 -> SR, 3 -> UR :    ");
   scanf("%d", &S31class);
+  printf(" Enter level :    ");
   scanf("%d", &S31level);
+  printf(" Enter point ");
   scanf("%d", &S31point);
 
   num = calc(S31class, S31level, S31point, &S31min, &S31mid, &S31max);
@@ -57,9 +59,9 @@ int main(int argc ,char *argv[])
     return 0;
   }
   
-  printf("#================#\n");
-  printf("# min  mid  max  #\n");
-  printf("# %d %d %d #\n", S31min, S31mid, S31max);
-  printf("#================#\n");
+  printf(" #================#\n");
+  printf(" # min  mid  max  #\n");
+  printf(" # %d %d %d #\n", S31min, S31mid, S31max);
+  printf(" #================#\n");
   return 1;
 }
