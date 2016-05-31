@@ -49,7 +49,7 @@ int main(int argc ,char *argv[])
   scanf("%d", &S31class);
   printf(" Enter level :    ");
   scanf("%d", &S31level);
-  printf(" Enter point :    ");
+  printf(" Enter point :     ");
   scanf("%d", &S31point);
 
   num = calc(S31class, S31level, S31point, &S31min, &S31mid, &S31max);
